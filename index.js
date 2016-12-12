@@ -8,10 +8,9 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planeteerCalls){
 var newCall=[];
 for(var i=0; planeteerCalls.length>i;i++){
-newCall.push(planeteerCalls[i] + "! ");}
-return newCall.toUpperCase.slice(0,-1);
+newCall.push(planeteerCalls[i].toUpperCase() + "!");}
+return newCall;
 }
-
 
 function longPlaneteerCalls(words) {
   for (var i=0;i<words.length;i++){
