@@ -6,7 +6,7 @@ function dwarfRollCall(dwarves) {
 }
 
 function summonCaptainPlanet(planeteerCalls){
-var newCall="";
+var newCall=("");
 for(var i=0; planeteerCalls.length>i;i++){
 newCall+=(planeteerCalls[i] + "!");}
 return newCall.toUpperCase();
