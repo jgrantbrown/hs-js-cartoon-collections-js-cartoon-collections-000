@@ -34,7 +34,7 @@ for(var j=0;j<cheese.length;j++){
 }
 
 }}
-}
+return "no cheese!"}
 */
 
 function findTheCheese (foods) {
